@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class Ranking : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -19,8 +19,8 @@ public class MainMenu : MonoBehaviour
 
     public void onPressBtn(string btn_name) 
     {
-        if (btn_name == "ranking") {
-            SceneManager.LoadScene("Ranking", LoadSceneMode.Single);
+        if (btn_name == "back") {
+            SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
         }
         Debug.Log(btn_name);
     }
