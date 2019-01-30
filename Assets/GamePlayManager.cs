@@ -58,7 +58,7 @@ public class GamePlayManager : MonoBehaviour
 
         Vector3 spawnPos = spawnPoint1.position;
         //spawnPos.z = spawnPos.z - Random.value * 10;
-        Debug.Log("Spawning at " + spawnPos);
+        //Debug.Log("Spawning at " + spawnPos);
         Instantiate(enemyPrefab, spawnPos, spawnPoint1.rotation);
         enemyCount++;
     }
@@ -68,7 +68,7 @@ public class GamePlayManager : MonoBehaviour
 
         Vector3 spawnPos = spawnPoint2.position;
         //spawnPos.z = spawnPos.z - Random.value * 10;
-        Debug.Log("Spawning at " + spawnPos);
+        //Debug.Log("Spawning at " + spawnPos);
         Instantiate(enemyPrefab, spawnPos, spawnPoint2.rotation);
         enemyCount++;
     }
