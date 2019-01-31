@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class Tutorial : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -19,15 +19,8 @@ public class MainMenu : MonoBehaviour
 
     public void onPressBtn(string btn_name) 
     {
-        if (btn_name == "ranking") {
-            SceneManager.LoadScene("Ranking", LoadSceneMode.Single);
+        if (btn_name == "skip") {
+            SceneManager.LoadScene("Terrain", LoadSceneMode.Single);
         }
-        else if (btn_name == "quit") {
-            Debug.Log(btn_name);
-        }
-        else {
-            SceneManager.LoadScene("Tutorial", LoadSceneMode.Single);
-        }
-        Debug.Log(btn_name);
     }
 }
