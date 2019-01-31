@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ranking.unity
     guid: 7e9c4f171edd2b747a66d3bfd033f0c3
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: e644219e62b916041a9244177d10630c
+  - enabled: 1
+    path: Assets/Scenes/Terrain.unity
+    guid: 90d193a39183c32488a9f6c73fa57fcb
   m_configObjects: {}
