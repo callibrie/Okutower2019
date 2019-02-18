@@ -904,7 +904,7 @@ GameObject:
   - component: {fileID: 761899296}
   - component: {fileID: 761899295}
   m_Layer: 0
-  m_Name: Music Cube
+  m_Name: BGM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -934,7 +934,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f87d27d3aaf021f44b6adf7c9cfa6b06, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6e1bb0903764e3c4fb8d0a7ae7f0f06b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
