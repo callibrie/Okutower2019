@@ -96,4 +96,10 @@ public class SimpleInteractionGlow : MonoBehaviour {
     }
   }
 
+  void OnCollisionEnter(Collision collision){
+    foreach (ContactPoint contact in collision.contacts){
+      Destroy(this.gameObject);
+    }
+  }
+
 }
