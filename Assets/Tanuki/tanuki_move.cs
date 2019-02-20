@@ -12,7 +12,7 @@ public class tanuki_move : MonoBehaviour
     void Awake()
     {
         position = gameObject.transform.position;
-
+        target = GameObject.Find("Tower").transform;
     }
 
     // Update is called once per frame
