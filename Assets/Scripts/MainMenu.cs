@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+
+    public AudioClip menuSelectSound;
+    
+    private AudioSource source;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +24,8 @@ public class MainMenu : MonoBehaviour
 
     public void onPressBtn(string btn_name) 
     {
+        source.PlayOneShot(menuSelectSound,0.5f);
+
         if (btn_name == "ranking") {
             SceneManager.LoadScene("Ranking", LoadSceneMode.Single);
         }
