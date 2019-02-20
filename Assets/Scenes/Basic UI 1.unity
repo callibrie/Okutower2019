@@ -7624,7 +7624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15317c3c822894054b07fffdbe4bb461, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wasapiiHP: 10
+  wasapiiHP: 5
   enemy: {fileID: 2252108642732430381, guid: 4ff1c1517276a45ec9ad884ebbb96ff9, type: 3}
   spawnTime: 2
   spawnPoints:
