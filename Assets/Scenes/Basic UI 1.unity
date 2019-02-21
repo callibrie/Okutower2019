@@ -278,7 +278,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.75
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -760,6 +760,7 @@ MonoBehaviour:
   speed: 0
   target: {fileID: 1370906477}
   position: {x: 0, y: 0, z: 0}
+  racoonSound: {fileID: 8300000, guid: 32895c149c8cf354b8ef3e5dee6ff384, type: 3}
 --- !u!65 &119485627
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -807,7 +808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cba520a60e47274cb1e5afbb57aae0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _manager: {fileID: 0}
+  _manager: {fileID: 1567890500}
   _ignoreHoverMode: 0
   _isIgnoringAllHoverState: 0
   _ignorePrimaryHover: 0
@@ -3680,6 +3681,7 @@ MonoBehaviour:
   speed: 0.04
   target: {fileID: 1370906477}
   position: {x: 0, y: 0, z: 0}
+  racoonSound: {fileID: 0}
 --- !u!1 &921061805
 GameObject:
   m_ObjectHideFlags: 0
